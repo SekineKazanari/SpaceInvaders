@@ -1,6 +1,6 @@
 class Shot {
     constructor(x, y, dir) {
-      this.img = loadImage('images/fire2.png');
+      this.img = loadImage('../images/fire2.png');
       this.x = x;
       this.y = y;
       this.w = 10;

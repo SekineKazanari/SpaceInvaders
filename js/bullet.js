@@ -1,6 +1,6 @@
 class Bullet {
   constructor(x, y, s) {
-    this.img = loadImage('images/fire.png');
+    this.img = loadImage('../images/fire.png');
     this.x = x;
     this.y = y;
     this.w = 10;

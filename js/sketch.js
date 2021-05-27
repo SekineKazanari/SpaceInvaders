@@ -22,10 +22,10 @@ let pauseTime = 0;
 let gameOverBool = false;
 
 function preload() {
-  playerImg = loadImage('images/player.png');
-  charizard_a = loadImage('images/charizard_a.png');
-  charizard_b = loadImage('images/charizard_b.png')
-  bkg = loadImage('images/bkg.png');
+  playerImg = loadImage('../images/player.png');
+  charizard_a = loadImage('../images/charizard_a.png');
+  charizard_b = loadImage('../images/charizard_b.png')
+  bkg = loadImage('../images/bkg.png');
 }
 
 function setup() {
